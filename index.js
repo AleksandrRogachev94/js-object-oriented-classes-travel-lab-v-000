@@ -9,5 +9,3 @@ class Driver {
     return parseInt(totalYears);
   }
 }
-
-new Driver
