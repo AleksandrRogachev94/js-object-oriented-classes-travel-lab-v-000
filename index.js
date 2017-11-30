@@ -26,3 +26,5 @@ class Route {
     return (Math.abs(horizontalDistance + verticalDistance));
   }
 }
+
+new Route
