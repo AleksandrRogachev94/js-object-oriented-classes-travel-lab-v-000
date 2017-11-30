@@ -21,7 +21,7 @@ class Route {
     return eastWest.indexOf(avenue);
   }
   blocksTravelled(){
-    let horizontalDistance = avenueToInt(this.endingLocation.horizontal) - avenueToInt(this.beginningLocation.horizontal)
+    let horizontalDistance = this.avenueToInt(this.endingLocation.horizontal) - this.avenueToInt(this.beginningLocation.horizontal)
     let verticalDistance = this.endingLocation.vertical - this.beginningLocation.vertical
     return Math.abs(horizontalDistance + verticalDistance);
   }
