@@ -21,6 +21,6 @@ class Route {
   blocksTravelled(){
     let horizontalDistance = eastWest.indexOf(endingLocation.horizontal) - eastWest.indexOf(beginningLocation.horizontal)
     let verticalDistance = this.endingLocation.vertical - this.beginningLocation.vertical
-    return (horizontalDistance + verticalDistance);
+    return Math.abs(horizontalDistance + verticalDistance);
   }
 }
